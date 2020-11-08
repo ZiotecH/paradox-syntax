@@ -4,6 +4,7 @@ This repository contains textmate grammars for Paradox Interactive games. Curren
 
 * A generic paradox grammar
 * A Stellaris grammar
+* Stellaris snippets for all current modifiers
 
 It will also contain some themes designed to work with these grammars.
 

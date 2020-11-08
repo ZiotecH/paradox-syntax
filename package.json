@@ -1,20 +1,22 @@
 {
     "contributors": [
         "Gratak",
-        "Dayshine"
+        "Dayshine",
+        "Danboy Bebace"
     ],
     "name": "paradox-syntax",
     "displayName": "Paradox Syntax Highlighting",
-    "description": "",
-    "version": "0.1.11",
+    "description": "Modified version for personal use.",
+    "version": "0.1.12",
     "publisher": "tboby",
     "repository": "https://github.com/tboby/paradox-syntax",
     "preview": true,
     "engines": {
-        "vscode": "^1.23.0"
+        "vscode": "^1.50.0"
     },
     "categories": [
-        "Programming Languages"
+        "Programming Languages",
+        "Snippets"
     ],
     "contributes": {
         "languages": [
@@ -111,6 +113,12 @@
                 "language": "paradox",
                 "scopeName": "source.mod",
                 "path": "./syntaxes/paradox.tmLanguage.json"
+            }
+        ],
+        "snippets":[
+            {
+                "language": "stellaris",
+                "path": "./snippets/stellaris.tmLanguage.json"
             }
         ],
         "themes": [
